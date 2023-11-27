@@ -1,6 +1,6 @@
 int my_strlen(char *chain);
 
-char *trim_begin_end(char *str)
+char *trim(char *str)
 {
     int i = 0;
     int j = my_strlen(str) - 1;
